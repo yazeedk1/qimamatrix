@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-align: right;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #002d62;
+    color: #fff;
+    padding: 1rem;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+    color: #fff;
+    padding: 6rem 1rem;
+    text-align: center;
+}
+
+section {
+    padding: 2rem 1rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #002d62;
+}
+
+.services,
+.why-us,
+.testimonials,
+.gallery {
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+.service-item,
+.why-item {
+    margin-bottom: 1rem;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 0.5rem;
+}
+
+footer {
+    background-color: #002d62;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media (min-width: 768px) {
+    nav a {
+        margin: 0 1rem;
+    }
+    .services,
+    .why-us,
+    .testimonials,
+    .gallery {
+        padding: 2rem;
+    }
+    .service-item,
+    .why-item {
+        display: flex;
+        align-items: center;
+    }
+    .service-item img,
+    .why-item img {
+        margin-left: 1rem;
+    }
+}
